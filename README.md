@@ -29,7 +29,7 @@ I found myself struggling to power my electronic components, such as motors with
 
 Front side: 
 
-![alt text](<assets/Screenshot from 2026-03-02 10-35-07.png>)
+![alt text](<assets/Screenshot from 2026-03-10 14-09-07.png>)
 
 Back side:
 
