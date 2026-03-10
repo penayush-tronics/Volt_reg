@@ -10,7 +10,7 @@ Here is a 3D model of the board:
 ![alt text](assets/volt_reg.png)
 
 
-You will see 3 screw terminal blocks; 1 on the top side, and 2 on the bottom. The one on top, labelled IN is the input block. Here, you should screw in the input wires, which can be from a a battery or any power source up to 20V. Be mindful of the polarity! You can see GND is labelled next to the ground input. 
+You will see 3 screw terminal blocks; 1 on the top side, and 2 on the bottom. The one on top, labelled IN is the input block. Here, you should screw in the input wires, which can be from a battery or any power source up to 20V. Be mindful of the polarity! You can see GND is labelled next to the ground input. 
 
 Next, to turn the board on, add a short jumper to the 3 header pins next to the input. Short/connect the top 2 pins to connect the board to power. To disconnect, move the jumper to the bottom 2 pins. After turning it on, you will see the red LED glow. This means the 5V output and the board is turned on. You can now connect the 5V output (on the bottom left side) to anything you want to power, but once again be mindful of polarity. It is labelled on the board. 
 
