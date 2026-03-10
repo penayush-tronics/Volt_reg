@@ -27,6 +27,11 @@ I found myself struggling to power my electronic components, such as motors with
 
 # PCB design 
 
+KiCAD editor:
+![alt text](<assets/Screenshot from 2026-03-10 14-22-07.png>)
+
+3D model-
+
 Front side: 
 
 ![alt text](<assets/Screenshot from 2026-03-10 14-09-07.png>)
