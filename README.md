@@ -1,7 +1,7 @@
 # Simple Voltage Regulator Board
 ![alt text](assets/image.png)
 
-This is a simple voltage regulator board, which takes in between 6.5V and upto 20V input, and outputs both 5V and 3.3V, with a maximum current output of 1A. This project uses the well-known AMS1117 step-down linear voltage regulators, which are Low Droput Regulators, meaning the voltage drop across them is than normal linear regulators. Here there are 2 of them, 1 of which steps down (decreases) 6.5V-20V to 5V, and the other one which steps down 5V from the previous LDO, into 3.3V. 
+This is a simple voltage regulator board, which takes in between 6.5V and upto 20V input, and outputs both 5V and 3.3V, with a maximum current output of 1A. This project uses the well-known AMS1117 step-down linear voltage regulators, which are Low Dropout Regulators, meaning the voltage drop across them is less than normal linear regulators. Here there are 2 of them, 1 of which steps down (decreases) 6.5V-20V to 5V, and the other one which steps down 5V from the previous LDO, into 3.3V. 
 
 # How to use the board: 
 
@@ -12,14 +12,14 @@ Here is a 3D model of the board:
 
 You will see 3 screw terminal blocks; 1 on the top side, and 2 on the bottom. The one on top, labelled IN is the input block. Here, you should screw in the input wires, which can be from a a battery or any power source up to 20V. Be mindful of the polarity! You can see GND is labelled next to the ground input. 
 
-Next, to turn the board on, add a short jumper to the 3 header pins next to the input. Short/connect the top 2 pins to connect the board to power. To disconnect, move the jumper to the bottom 2 pins. After turning it on, you will see the red LED glow. This means the 5V output and the board is turned on. You can now connect the 5V output (on the bottom left side) to anything u want to power, but once again be mindful of polarity. It is labelled on the board. 
+Next, to turn the board on, add a short jumper to the 3 header pins next to the input. Short/connect the top 2 pins to connect the board to power. To disconnect, move the jumper to the bottom 2 pins. After turning it on, you will see the red LED glow. This means the 5V output and the board is turned on. You can now connect the 5V output (on the bottom left side) to anything you want to power, but once again be mindful of polarity. It is labelled on the board. 
 
 To turn on the 3.3V output, use a short header to connect the 2 header pins in the center of the board. Now the 3.3V output is turned on (bottom right side of board) and you can connect it to anything that runs on 3.3V, such as microcontrollers and development boards. 
 
 
 # Why I made this board
 
-I found myself struggling to power my electronic components, such as motors with an arduino. You cannot run them directly with the 5V output of the arduino due to current cosntraints, as well as you risk frying the arduino. In such cases I struggled to power them seperately with a quality, high current power source. Normal batteries and Li-Ion rechargable batteries do not have the required voltage either, and running from USB power is not ideal. Hence I developed this regulator board, so a stable and proper 5V and 3.3V power source can be used for projects.
+I found myself struggling to power my electronic components, such as motors with an arduino. You cannot run them directly with the 5V output of the arduino due to current constraints, as well as you risk frying the arduino. In such cases I struggled to power them seperately with a quality, high current power source. Normal batteries and Li-Ion rechargable batteries do not have the required voltage either, and running from USB power is not ideal. Hence I developed this regulator board, so a stable and proper 5V and 3.3V power source can be used for projects.
 
 # Schematics 
 
@@ -62,6 +62,8 @@ All Schematics and PCB file (including gerber zip) is available in the PCB files
 Total: 1057.17 INR  (114.17 INR for components)
        
        $11.51 USD ($1.24 USD for components)
+
+       Per board cost ~215-220 rs ($2.30-$2.40)
 
 Also in .csv format, in BOM.csv 
 
