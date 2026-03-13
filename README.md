@@ -63,7 +63,7 @@ Total: 1057.17 INR  (114.17 INR for components)
        
        $11.51 USD ($1.24 USD for components)
 
-       Per board cost ~215-220 rs ($2.30-$2.40)
+       Per board cost ~220 rs ($2.40)
 
 Also in .csv format, in BOM.csv 
 
