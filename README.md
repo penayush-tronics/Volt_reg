@@ -43,6 +43,24 @@ Back side:
 
 All Schematics and PCB file (including gerber zip) is available in the PCB files directory.
 
+# It works! (Demo)
+
+  After gathering all the parts and the PCB, I hand soldered the board together and it all works!
+
+  ![alt text](<assets/WhatsApp Image 2026-05-23 at 19.39.05.jpeg>)
+
+  I have covered the red LED because it was blindingly bright!
+
+  ![alt text](<assets/WhatsApp Image 2026-05-23 at 19.39.05-1.jpeg>)
+
+  Powering it using 2 Li-Ion batteries, total voltage of ~7.5V-8V
+
+  Here is a video showing the voltage in and out using a multimeter. 
+
+  <video controls src="assets/VID-20260523-WA0207.mp4" title="Title"></video>
+
+
+
 
 # Bill of materials
 
