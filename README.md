@@ -57,7 +57,7 @@ All Schematics and PCB file (including gerber zip) is available in the PCB files
 
   Here is a video showing the voltage in and out using a multimeter. 
 
-  <video controls src="VID-20260523-WA0207.mp4" title="Voltage Regulator Board"></video>
+  https://github.com/user-attachments/assets/61b3c373-3d1c-4dd0-ad89-5317c5041c4e
 
 
 
